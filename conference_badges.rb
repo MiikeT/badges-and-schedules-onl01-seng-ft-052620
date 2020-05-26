@@ -21,5 +21,5 @@ end
 
 
 def printer(names)
-  puts assign_rooms(batch_maker(names))
+  puts assign_rooms(badge_maker(names))
 end
