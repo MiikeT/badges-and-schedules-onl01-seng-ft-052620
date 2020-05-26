@@ -14,7 +14,7 @@ end
 def assign_rooms(speakers)
   rooms = [1,2,3,4,5,6,7]
   assigned = speakers.map.with_index do |speaker, i|
-    "Hello, #{speaker}! You'll be assigned to room #{rooms[i]}."
+    "Hello, #{speaker}! You'll be assigned to room #{rooms[i]}!"
   end
   assigned
 end
