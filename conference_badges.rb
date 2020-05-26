@@ -26,4 +26,7 @@ def printer(attendees)
   badges.each do |speaker|
     puts speaker
   end
+  rooms.each do |room|
+    puts room
+  end
 end
